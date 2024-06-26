@@ -1,0 +1,22 @@
+* {
+    border: none;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('img/allianz.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, a {
+    margin: 1rem 0;
+    font-size: 4rem; /* Increase font size to 32px (2rem) */
+    color: #ffffff; /* Set font color to white */
+}
